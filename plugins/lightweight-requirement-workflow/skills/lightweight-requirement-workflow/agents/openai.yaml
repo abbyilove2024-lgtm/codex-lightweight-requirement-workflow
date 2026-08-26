@@ -1,0 +1,6 @@
+interface:
+  display_name: "轻量需求撰写流程"
+  short_description: "从需求探讨到原型、自检和知识库草案的可恢复确认流程"
+  default_prompt: "Use $lightweight-requirement-workflow to start or continue this product requirement with explicit confirmation gates."
+policy:
+  allow_implicit_invocation: true

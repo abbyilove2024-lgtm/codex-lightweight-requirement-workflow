@@ -1,0 +1,32 @@
+{
+  "name": "lightweight-requirement-workflow",
+  "version": "0.1.0",
+  "description": "A gated, resumable product requirement workflow for Codex teams.",
+  "author": {
+    "name": "Product Team"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "product-management",
+    "requirements",
+    "prd",
+    "prototype"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "轻量需求撰写流程",
+    "shortDescription": "分阶段完成需求探讨、文档、原型、自检和知识沉淀",
+    "longDescription": "A resumable product requirement workflow with explicit confirmation gates, deterministic state tracking, offline prototypes, and optional knowledge-base updates.",
+    "developerName": "Product Team",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "开始一个新需求，先探讨，不要直接写 PRD。",
+      "继续当前需求，并从已确认的阶段恢复。",
+      "分析这个需求变更会影响哪些文档和原型。"
+    ]
+  }
+}

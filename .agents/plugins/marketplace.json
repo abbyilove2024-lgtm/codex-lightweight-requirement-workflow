@@ -1,0 +1,20 @@
+{
+  "name": "team-product",
+  "interface": {
+    "displayName": "团队产品工具"
+  },
+  "plugins": [
+    {
+      "name": "lightweight-requirement-workflow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lightweight-requirement-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
